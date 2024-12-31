@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    padding: 0 !important;
+}
+li{
+    color: inherit;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+section{
+    padding: 70px 10px;
+}
+img{
+    width: 100%;
+}
+/* Start Nav */
+.navbar{
+    background-color: #333333;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+.navbar .navbar-brand{
+    font-size: 28px;
+    color: white;
+    font-style: italic;
+}
+.navbar .nav-link{
+    color: white;
+    transition: 0.3s;
+}
+.navbar .nav-link:hover{
+    background-color: #ff0f0f;
+}
+.navbar .active{
+    background-color: #ff0f0f !important;
+}
+.navbar .dropdown-menu{
+    background-color: #333333;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #333333;
+    gap: 5px;
+}
+.navbar .dropdown-menu .dropdown-item{
+    color: white;
+    transition: 0.3s;
+    padding: 5px 10px;
+}
+.navbar .dropdown-menu .dropdown-item:hover{
+    background-color: #ff0f0f;
+}
+/* End Nav */
+/* Start HomeSection */
+.HomeSection{
+    padding-top: 120px;
+}
+.HomeSection .divider{
+    background-color: #333333;
+    width: 100%;
+    height: 3px;
+    margin: 10px 0;
+}
+.HomeSection p{
+    font-size: 28px;
+    color: #333333;
+}
+.HomeSection a{
+    background-color: #333333;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    color: white !important;
+    font-size: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.HomeSection a:hover{
+    background-color: black;
+}
+/* End HomeSection */
+/* Start SummitLeader */
+.SummitLeader{
+    background-color: #e0e6e6;
+    width: 100%;
+}
+.SummitLeader .container-fluid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.SummitLeader .container-fluid h2{
+    color:#333333;
+}
+.SummitLeader .container-fluid h2 span{
+    color: #ff0f0f;
+    font-weight: 600;
+}
+.SummitLeader .container-fluid .LeaderImg{
+    padding: 10px 0px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.SummitLeader .container-fluid p{
+    width: 80%;
+}
+/* End SummitLeader */
+/* Start Members */
+.Members{
+    background-color: #e0e6e6;
+}
+.Members .container-fluid .row h2{
+    text-align: center;
+    color: #563434;
+}
+.Members .container-fluid .row .Member{
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #333333;
+}
+.Members .container-fluid .row .Member .membertext h3{
+    color: #333333;
+    font-size: 24px;
+}
+.Members .container-fluid .row .Member .membertext p{
+    font-size: 18px;
+}
+.Members .container-fluid .row .Member .membertext p span{
+    color: rgb(228, 58, 11);
+    font-weight: 600;
+}
+/* End Members */
+/* Start Organizers */
+.Organizers .container-fluid h2{
+    text-align: center;
+    color: #333333;
+    margin-bottom: 40px;
+}
+.Organizers .container-fluid .row{
+    display: flex;
+}
+.Organizers .container-fluid .row .organizer h3{
+    color: #ff0f0f;
+}
+.Organizers .container-fluid .row .organizerimg{
+    height: 350px;
+    overflow: hidden;
+}
+.Organizers .container-fluid .row .organizer h4{
+    color: #ff0f0f;
+}
+.Organizers .container-fluid .row .organizer ul{
+    padding: 0 !important;
+}
+.Organizers .container-fluid .row .organizer ul li{
+    list-style: circle;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 500;
+}
+/* End Organizers */
+/* Start Speakers */
+.Speakers{
+    background-color: #e0e6e6;
+}
+.Speakers .container-fluid h2{
+    text-align: center;
+    color: #333333;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.Speakers .container-fluid .row{
+    background-color: #333333;
+    padding: 10px 0px;
+}
+.Speakers .container-fluid .row .Speakerinfo{
+    background-color: #333333;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Speakers .container-fluid .row .Speakerinfo h3{
+    color: #e0e6e6;
+    margin: 20px 0;
+    text-align: center;
+}
+.Speakers .container-fluid .row .Speakerinfo a{
+    background-color: #e0e6e6;
+    width: fit-content;
+    padding: 3px 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    transition: 0.5s;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.Speakers .container-fluid .row .Speakerinfo a:hover{
+    background-color: #000;
+    color: #e0e6e6;
+}
+.Speakers .container-fluid .row .speaker h4{
+    color: white;
+    text-align: center;
+}
+.Speakers .container-fluid .row .speaker .speakerimg{
+    border-radius: 50%;
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+.Speakers .container-fluid .row .speaker p{
+    color: #e0e6e6;
+}
+/* End Speakers */
+/* Start Schedule */
+.Schedule{
+    background-color: #e0e6e6;
+}
+.Schedule .container-fluid h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Schedule .container-fluid .table td p{
+    font-size: 20px;
+    color: #333333;
+}
+.Schedule .container-fluid .table .sessionspeaker{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+}
+.Schedule .container-fluid .table th{
+    font-size: 20px;
+    text-align: center;
+}
+.Schedule .container-fluid .table td{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+}
+.Schedule .container-fluid .table .LunchBreak{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    padding: 20px;
+}
+/* End Schedule */
+/* Start Sponsors */
+.Sponsors{
+    background-color: #e0e6e6;
+}
+/* End Sponsors */
+/* Start HallAddress */
+.HallAddress{
+    background-image: url(./img/hall.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+.HallAddress .container-fluid h2{
+    text-align: center;
+    color: #e0e6e6;
+}
+.HallAddress .container-fluid .row .addressinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px 0px;
+}
+.HallAddress .container-fluid .row .addressinfo h3{
+    color: #e0e6e6;
+    text-align: center;
+}
+.HallAddress .container-fluid .row .addressinfo p{
+    color: #e0e6e6;
+    font-size: 20px;
+}
+.HallAddress .container-fluid .row .addressinfo h4{
+    color: #e0e6e6;
+}
+.HallAddress .container-fluid .row .addressinfo h5{
+    color: #e0e6e6;
+}
+.HallAddress .container-fluid .row .addressinfo .apps{
+    display: flex;
+}
+
+
+/* End HallAddress */
+/* Start Footer */
+footer{
+    background-color: rgb(161, 16, 64);
+    height: 40vh;
+}
+footer .row{
+    padding: 40px 0;
+}
+footer .row .Quicklinks h3{
+    color: #e0e6e6;
+}
+footer .row .Quicklinks ul li{
+    transition: 0.3s;
+    color: #e0e6e6;
+    margin: 5px 0;
+    list-style:disc;
+}
+footer .row .Quicklinks ul li:hover{
+    color: #000;
+    letter-spacing: 3px;
+}
+footer .row .Contact h3{
+    color: #e0e6e6;
+}
+footer .row .Contact .platforms{
+    display: flex;
+    gap: 15px;
+}
+footer .row .Contact .platforms i{
+    font-size: 28px;
+    color: #e0e6e6;
+    transition: 0.3s;
+}
+footer .row .Contact .platforms i:hover{
+    color: #000;
+}
+/* End Footer */
